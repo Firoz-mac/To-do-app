@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+  width: 100%;
+  height: 46em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box-main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.box{
+  width: 35em;
+  height: auto;
+  margin-top: 6em;
+  background-color: white;
+}
+.box-title{
+  width: 100%;
+  height: auto;
+  display: flex;
+  /* background-color: blue; */
+  padding: 2em;
+
+}
+.box-content{
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  flex-direction: column;
+}
+p{
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+.icon-list{
+  font-size: 1.5em;
+  margin-left: 1em;
+  margin-top: .23em;
+}
+/* .input-field{
+  width: 90%;
+  height: 4em;
+  border-radius: 40px;
+  border: none;
+} */
+
+.content-center{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(219, 219, 219);
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.input-one{
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+}
+.bt-add{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background-color: rgb(130, 0, 0);
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content-center2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(255, 0, 0); */
+  border-radius: 30px;
+  /* padding-left: 20px; */
+  margin-bottom: 25px;
+  justify-content: space-between;
 }
+ul,li{
+  list-style: none;
+  font-size: 20px;
+  user-select: none;
+  cursor: pointer;
+  padding-top: 10px;
+  position: relative;
+}
+.btn-c{
+  padding-left: 5px;
+}
+.list-container{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.checkbox{
+  width: 1em;
+  margin-top: 9.5px;
+}
+li{
+  margin-left: 20px;
 }
